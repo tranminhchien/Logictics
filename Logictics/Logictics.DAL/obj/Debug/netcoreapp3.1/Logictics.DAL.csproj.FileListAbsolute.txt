@@ -1,0 +1,15 @@
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\bin\Debug\netcoreapp3.1\Logictics.DAL.deps.json
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\bin\Debug\netcoreapp3.1\Logictics.DAL.runtimeconfig.json
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\bin\Debug\netcoreapp3.1\Logictics.DAL.runtimeconfig.dev.json
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\bin\Debug\netcoreapp3.1\Logictics.DAL.dll
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\bin\Debug\netcoreapp3.1\Logictics.DAL.pdb
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\bin\Debug\netcoreapp3.1\Logictics.Entity.dll
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\bin\Debug\netcoreapp3.1\Logictics.Entity.pdb
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\obj\Debug\netcoreapp3.1\Logictics.DAL.csprojAssemblyReference.cache
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\obj\Debug\netcoreapp3.1\Logictics.DAL.AssemblyInfoInputs.cache
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\obj\Debug\netcoreapp3.1\Logictics.DAL.AssemblyInfo.cs
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\obj\Debug\netcoreapp3.1\Logictics.DAL.csproj.CoreCompileInputs.cache
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\obj\Debug\netcoreapp3.1\Logictics.DAL.csproj.CopyComplete
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\obj\Debug\netcoreapp3.1\Logictics.DAL.dll
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\obj\Debug\netcoreapp3.1\Logictics.DAL.pdb
+C:\Users\MinhChien\source\repos\Logictics\Logictics.DAL\obj\Debug\netcoreapp3.1\Logictics.DAL.genruntimeconfig.cache
