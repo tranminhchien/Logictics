@@ -85,6 +85,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Common\\Common.csproj"
+              },
               "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
                 "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj"
               }
@@ -314,6 +317,12 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.TypeScript.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.2.3, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

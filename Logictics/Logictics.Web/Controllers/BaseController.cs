@@ -36,7 +36,7 @@ namespace Logictics.Web.Controllers
         {
             List<Claim> claims = new List<Claim>();
             Claim _claim;
-            _claim = new Claim(ClaimTypes.Name, user.Email);
+            _claim = new Claim(ClaimTypes.Name, user.UserName);
             claims.Add(_claim);
 
             _claim = new Claim("Role", Role.Admin);

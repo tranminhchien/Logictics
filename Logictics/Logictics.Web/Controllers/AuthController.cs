@@ -31,12 +31,12 @@ namespace Logictics.Web.Controllers
         [AllowAnonymous]
         public IActionResult Login(UserViewModel model)
         {
-            //UserViewModel user = _authService.GetLoginUser(model.Email.Trim(), _encryptionUtil.EncodeSHA1(model.Password));
-            UserViewModel user = _authService.GetLoginUser(model.Email.Trim(), model.Password);
+            UserViewModel user = _authService.GetLoginUser(model.UserName.Trim(), _encryptionUtil.EncodeSHA1(model.Password));
             try
             {
                 if (user == null)
                 {
+                    ModelState.AddModelError("", "UserName or Password not exist");
                     return View("Login", user);
                 }
                 _ = CreateAuthenticationTicket(user);

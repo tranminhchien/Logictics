@@ -11,7 +11,7 @@ namespace Logictics.DAL.Repository
 {
     public interface IUserRepo : IRepo<UserAdmin>
     {
-        IQueryable<UserAdmin> GetUserByUserName(string email, string password);
+        IQueryable<UserAdmin> GetUserByUserName(string userName, string password);
 
         //IEnumerable<UserAdmin> GetAllInclude();
         //UserAdmin GetInclude(int id);
@@ -27,9 +27,9 @@ namespace Logictics.DAL.Repository
 
         }
 
-        public IQueryable<UserAdmin> GetUserByUserName(string email, string password)
+        public IQueryable<UserAdmin> GetUserByUserName(string userName, string password)
         {
-            return Table.Where(x => x.UserName == email && x.PassWord == password);
+            return Table.Where(x => x.UserName == userName && x.PassWord == password);
         }
       
     }

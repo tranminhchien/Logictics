@@ -8,6 +8,7 @@ using Logictics.DAL.EFContext;
 using Logictics.DAL.Repository;
 using Logictics.Service.Core;
 using Logictics.Web.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,6 +35,7 @@ namespace Logictics.Web
         public void ConfigureServices(IServiceCollection services)
 
         {
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
             //Add MVC Middleware  
             services.AddControllersWithViews();
 
@@ -63,9 +65,10 @@ namespace Logictics.Web
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
 
+          
+            
             app.UseCookiePolicy();
             app.UseSession();
             app.Use(async (context, next) =>
@@ -88,6 +91,7 @@ namespace Logictics.Web
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Auth}/{action=Login}/{id?}");
+                    endpoints.MapRazorPages();
             });
         }
 

@@ -1,4 +1,5 @@
-﻿using Logictics.Entity.Models;
+﻿using Logictics.DAL.Seed;
+using Logictics.Entity.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Logictics.DAL.EFContext
@@ -50,6 +51,7 @@ namespace Logictics.DAL.EFContext
 
             
             });
+            modelBuilder.Seed();
  
 
            

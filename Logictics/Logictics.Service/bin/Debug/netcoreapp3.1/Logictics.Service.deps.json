@@ -1706,6 +1706,7 @@
       },
       "Logictics.DAL/1.0.0": {
         "dependencies": {
+          "Common": "1.0.0",
           "Logictics.Entity": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.0",
           "Microsoft.EntityFrameworkCore.Relational": "3.1.0",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "k7MyjkxNXsvc8q5d8GZ9gfFyIRJOIZEjs9zH7c9lPKd+pUh2Uno3V2/aJohS++5CILy3h33+5Agst6H2jS/xNA==",
+  "dgSpecHash": "fN5u/Zb4VoPObvr1cIarSnIlTYQkX8Vrhlb1R6ZA2gf/eJa8J3Gvpbj+zcdNxQvmNc6AMpsUppsYjevTveydyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Web\\Logictics.Web.csproj",
   "expectedPackageFiles": [
@@ -79,6 +79,7 @@
     "C:\\Users\\MinhChien\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\MinhChien\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\MinhChien\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\MinhChien\\.nuget\\packages\\microsoft.typescript.msbuild\\4.2.3\\microsoft.typescript.msbuild.4.2.3.nupkg.sha512",
     "C:\\Users\\MinhChien\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.5\\microsoft.visualstudio.web.codegeneration.3.1.5.nupkg.sha512",
     "C:\\Users\\MinhChien\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.5\\microsoft.visualstudio.web.codegeneration.contracts.3.1.5.nupkg.sha512",
     "C:\\Users\\MinhChien\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.5\\microsoft.visualstudio.web.codegeneration.core.3.1.5.nupkg.sha512",

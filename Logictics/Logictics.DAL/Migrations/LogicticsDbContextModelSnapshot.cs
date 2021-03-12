@@ -46,6 +46,16 @@ namespace Logictics.DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("UserAdmin");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "69bd714f-9576-45ba-b5b7-f00649be00de",
+                            PassWord = "7c4a8d9ca3762af61e59520943dc26494f8941b",
+                            Role = "ADMIN",
+                            Status = "ACTIVE",
+                            UserName = "admin"
+                        });
                 });
 #pragma warning restore 612, 618
         }

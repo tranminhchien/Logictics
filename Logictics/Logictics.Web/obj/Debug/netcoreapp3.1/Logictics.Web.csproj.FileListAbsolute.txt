@@ -1,9 +1,6 @@
 C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.csprojAssemblyReference.cache
 C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.AssemblyInfoInputs.cache
 C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.AssemblyInfo.cs
-C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.csproj.CoreCompileInputs.cache
-C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.RazorAssemblyInfo.cache
 C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.RazorAssemblyInfo.cs
 C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.TagHelpers.input.cache
@@ -151,3 +148,12 @@ C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\
 C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\staticwebassets\Logictics.Web.StaticWebAssets.xml
 C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.genruntimeconfig.cache
 C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\_ViewImports.cshtml.g.cs
+C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.csproj.CoreCompileInputs.cache
+C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AdminLayout.cshtml.g.cs
+C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AdminListPatial\_CSS.cshtml.g.cs
+C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AdminListPatial\_Script.cshtml.g.cs
+C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AdminPartial\_Footer.cshtml.g.cs
+C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AdminPartial\_LeftPanel.cshtml.g.cs
+C:\Users\MinhChien\source\repos\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AdminPartial\_TopNavBar.cshtml.g.cs

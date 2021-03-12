@@ -51,7 +51,6 @@ C:\Users\MinhChien\source\repos\Logictics\Common\bin\Debug\netcoreapp3.1\System.
 C:\Users\MinhChien\source\repos\Logictics\Common\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Xml.dll
 C:\Users\MinhChien\source\repos\Logictics\Common\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
 C:\Users\MinhChien\source\repos\Logictics\Common\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
-C:\Users\MinhChien\source\repos\Logictics\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
 C:\Users\MinhChien\source\repos\Logictics\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
 C:\Users\MinhChien\source\repos\Logictics\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
 C:\Users\MinhChien\source\repos\Logictics\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
@@ -59,3 +58,4 @@ C:\Users\MinhChien\source\repos\Logictics\Common\obj\Debug\netcoreapp3.1\Common.
 C:\Users\MinhChien\source\repos\Logictics\Common\obj\Debug\netcoreapp3.1\Common.dll
 C:\Users\MinhChien\source\repos\Logictics\Common\obj\Debug\netcoreapp3.1\Common.pdb
 C:\Users\MinhChien\source\repos\Logictics\Common\obj\Debug\netcoreapp3.1\Common.genruntimeconfig.cache
+C:\Users\MinhChien\source\repos\Logictics\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
