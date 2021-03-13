@@ -7,3 +7,11 @@ C:\Users\MinhChien\source\repos\Logictics\Logictics.Entity\obj\Debug\netcoreapp3
 C:\Users\MinhChien\source\repos\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.dll
 C:\Users\MinhChien\source\repos\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.pdb
 C:\Users\MinhChien\source\repos\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.csprojAssemblyReference.cache
+C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\bin\Debug\netcoreapp3.1\Logictics.Entity.deps.json
+C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\bin\Debug\netcoreapp3.1\Logictics.Entity.dll
+C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\bin\Debug\netcoreapp3.1\Logictics.Entity.pdb
+C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.AssemblyInfoInputs.cache
+C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.AssemblyInfo.cs
+C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.csproj.CoreCompileInputs.cache
+C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.dll
+C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.pdb

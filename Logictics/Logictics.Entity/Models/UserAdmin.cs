@@ -7,5 +7,7 @@
         public string PassWord { get; set; }
         public string Role { get; set; }
         public string Status { get; set; }
+        public double? CreateDate { get; set; }
+        public double? ModifyDate { get; set; }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fa7H/Ez6XyxW4xiW06pwEEprQgCPd93MoTlUUWK6gC51ZT1KxQZ+f7H/D+y9NoINFbQg9sDr3FgdtU7VCx7jvg==",
+  "dgSpecHash": "mW40Q6s+fiuCaa6s7ASTAozalDF8Q3ZdJcX5J//0XZshRQ4s0rIUBKYIr0nUN+ugi9d/Ysq/yEBqLFhFvzStaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj",
+  "projectFilePath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MinhChien\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\MinhChien\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

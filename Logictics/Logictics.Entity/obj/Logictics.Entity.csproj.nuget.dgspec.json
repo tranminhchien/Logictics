@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {}
+    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
+    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj",
         "projectName": "Logictics.Entity",
-        "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj",
+        "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj",
         "packagesPath": "C:\\Users\\MinhChien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\obj\\",
+        "outputPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MinhChien\\AppData\\Roaming\\NuGet\\NuGet.Config",

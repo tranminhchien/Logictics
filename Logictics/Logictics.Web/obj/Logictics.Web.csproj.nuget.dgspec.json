@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Web\\Logictics.Web.csproj": {}
+    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Web\\Logictics.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Common\\Common.csproj": {
+    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\MinhChien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Common\\obj\\",
+        "outputPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MinhChien\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj": {
+    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj",
         "projectName": "Logictics.DAL",
-        "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj",
+        "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj",
         "packagesPath": "C:\\Users\\MinhChien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.DAL\\obj\\",
+        "outputPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MinhChien\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,11 +85,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Common\\Common.csproj"
+              "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj"
               },
-              "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
-                "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj"
+              "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
+                "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
+    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj",
         "projectName": "Logictics.Entity",
-        "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj",
+        "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj",
         "packagesPath": "C:\\Users\\MinhChien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\obj\\",
+        "outputPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MinhChien\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -193,14 +193,14 @@
         }
       }
     },
-    "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Service\\Logictics.Service.csproj": {
+    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\Logictics.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Service\\Logictics.Service.csproj",
+        "projectUniqueName": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\Logictics.Service.csproj",
         "projectName": "Logictics.Service",
-        "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Service\\Logictics.Service.csproj",
+        "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\Logictics.Service.csproj",
         "packagesPath": "C:\\Users\\MinhChien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Service\\obj\\",
+        "outputPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MinhChien\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -216,11 +216,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Common\\Common.csproj"
+              "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj"
               },
-              "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj": {
-                "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj"
+              "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj": {
+                "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj"
               }
             }
           }
@@ -252,14 +252,14 @@
         }
       }
     },
-    "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Web\\Logictics.Web.csproj": {
+    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Web\\Logictics.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Web\\Logictics.Web.csproj",
+        "projectUniqueName": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Web\\Logictics.Web.csproj",
         "projectName": "Logictics.Web",
-        "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Web\\Logictics.Web.csproj",
+        "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Web\\Logictics.Web.csproj",
         "packagesPath": "C:\\Users\\MinhChien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Web\\obj\\",
+        "outputPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MinhChien\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -275,14 +275,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj": {
-                "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj"
+              "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj": {
+                "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj"
               },
-              "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
-                "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj"
+              "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
+                "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj"
               },
-              "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Service\\Logictics.Service.csproj": {
-                "projectPath": "C:\\Users\\MinhChien\\source\\repos\\Logictics\\Logictics.Service\\Logictics.Service.csproj"
+              "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\Logictics.Service.csproj": {
+                "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\Logictics.Service.csproj"
               }
             }
           }

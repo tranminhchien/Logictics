@@ -134,6 +134,7 @@ namespace Logictics.Web
       
             // service dependency injection container configuration
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IUserService, UserService>();
      
             // common di
             services.AddScoped<IDatetimeUtil, DatetimeUtil>();
