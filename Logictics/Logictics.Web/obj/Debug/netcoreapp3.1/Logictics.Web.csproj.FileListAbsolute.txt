@@ -316,9 +316,12 @@ C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Web\bin\Debug\netcoreapp
 C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\staticwebassets\Logictics.Web.StaticWebAssets.Manifest.cache
 C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\staticwebassets\Logictics.Web.StaticWebAssets.xml
 C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.genruntimeconfig.cache
+E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Common.deps.json
+E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Common.runtimeconfig.json
+E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Common.runtimeconfig.dev.json
+E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Common.exe
 E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\appsettings.json
-E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Common.exe
 E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Logictics.Web.exe
 E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Logictics.Web.deps.json
 E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Logictics.Web.runtimeconfig.json
@@ -453,6 +456,8 @@ E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\scopedcss\bundle\Lo
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.TagHelpers.input.cache
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.TagHelpers.output.cache
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.RazorCoreGenerate.cache
+E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Create.cshtml.g.cs
+E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Index.cshtml.g.cs
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Views\Auth\Login.cshtml.g.cs
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
@@ -475,3 +480,4 @@ E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.cspro
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.dll
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.pdb
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.genruntimeconfig.cache
+E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Edit.cshtml.g.cs

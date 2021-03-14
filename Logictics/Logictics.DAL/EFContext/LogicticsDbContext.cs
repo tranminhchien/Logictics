@@ -31,7 +31,6 @@ namespace Logictics.DAL.EFContext
             {
                 entity.ToTable("UserAdmin");
                 entity.HasKey(x => x.Id);
-                
 
                 entity.Property(e => e.PassWord)
                       .HasMaxLength(150)
@@ -51,6 +50,21 @@ namespace Logictics.DAL.EFContext
 
             
             });
+
+            modelBuilder.Entity<OrderTbl>(entity =>
+            {
+                entity.ToTable("OrderTbl");
+                entity.HasKey(x => x.Id);
+                entity.Property(e => e.Status).HasMaxLength(50).IsUnicode(false);
+            });
+
+            modelBuilder.Entity<OrderDetailTbl>(entity =>
+            {
+                entity.ToTable("OrderDetailTbl");
+                entity.HasKey(x => x.Id);
+                entity.Property(e => e.Status).HasMaxLength(50).IsUnicode(false);
+            });
+
             modelBuilder.Seed();
  
 

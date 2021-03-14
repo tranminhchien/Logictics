@@ -131,10 +131,14 @@ namespace Logictics.Web
         {
             // repo dependency injection container configuration
             services.AddScoped<IUserRepo, UserRepo>();
+            services.AddScoped<IOrderRepo, OrderRepo>();
+            services.AddScoped<IOrderDetailRepo, OrderDetailRepo>();
       
             // service dependency injection container configuration
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IOrderDetailService, OrderDetailService>();
      
             // common di
             services.AddScoped<IDatetimeUtil, DatetimeUtil>();

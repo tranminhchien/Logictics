@@ -19,6 +19,78 @@ namespace Logictics.DAL.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Logictics.Entity.Models.OrderDetailTbl", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<double?>("CreateDate")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double?>("ModifyDate")
+                        .HasColumnType("float");
+
+                    b.Property<string>("OrderId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Price")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductCategoryId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Quality")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
+
+                    b.Property<string>("Weight")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("OrderDetailTbl");
+                });
+
+            modelBuilder.Entity("Logictics.Entity.Models.OrderTbl", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<double?>("CreateDate")
+                        .HasColumnType("float");
+
+                    b.Property<string>("CustomerPhone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double?>("ModifyDate")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
+
+                    b.Property<string>("Store")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TotalWeight")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("OrderTbl");
+                });
+
             modelBuilder.Entity("Logictics.Entity.Models.UserAdmin", b =>
                 {
                     b.Property<string>("Id")

@@ -17,4 +17,20 @@ namespace Common.Utils
             return milestones.AddMilliseconds(milliseconds);
         }
     }
+
+    public class TimestampStaicClas
+    {
+        public static DateTime ConvertToDatetime(double? milliseconds)
+        {
+            DateTime milestones = new DateTime(1970, 1, 1, 0, 0, 0);
+
+            if(milliseconds == null || milliseconds <= 0)
+            {
+                return milestones;
+            }
+
+            return milestones.AddMilliseconds((double)milliseconds).ToLocalTime();
+        }
+    }
+   
 }
