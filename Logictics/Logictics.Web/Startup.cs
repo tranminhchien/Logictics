@@ -133,6 +133,8 @@ namespace Logictics.Web
             services.AddScoped<IUserRepo, UserRepo>();
             services.AddScoped<IOrderRepo, OrderRepo>();
             services.AddScoped<IOrderDetailRepo, OrderDetailRepo>();
+            services.AddScoped<IStoreRepo, StoreRepo>();
+            services.AddScoped<ICategoryProductRepo, CategoryProductRepo>();
       
             // service dependency injection container configuration
             services.AddScoped<IAuthService, AuthService>();

@@ -12,5 +12,7 @@ namespace Common.Provider
             INACTIVE,
             DELETE
         }
+
+        public static string NOTFOUND = "NotFound";
     }
 }

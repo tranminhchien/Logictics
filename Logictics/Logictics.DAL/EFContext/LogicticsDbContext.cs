@@ -17,8 +17,6 @@ namespace Logictics.DAL.EFContext
         }
 
 
-
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
         }
@@ -65,17 +63,29 @@ namespace Logictics.DAL.EFContext
                 entity.Property(e => e.Status).HasMaxLength(50).IsUnicode(false);
             });
 
-            modelBuilder.Seed();
- 
+            modelBuilder.Entity<StoreTbl>(entity =>
+            {
+                entity.ToTable("StoreTbl");
+                entity.HasKey(x => x.Id);
+            });
 
-           
+            modelBuilder.Entity<CategoryProductTbl>(entity =>
+            {
+                entity.ToTable("CategoryProductTbl");
+                entity.HasKey(x => x.Id);
+            });
+
+            modelBuilder.Seed();
+
             base.OnModelCreating(modelBuilder);
 
         }
 
        
         public virtual DbSet<UserAdmin> UserAdmin { get; set; }
-      
-
+        public virtual DbSet<StoreTbl> StoreTbls { get; set; }
+        public virtual DbSet<CategoryProductTbl> CategoryProductTbls { get; set; }
+        public virtual DbSet<OrderTbl> OrderTbls { get; set; }
+        public virtual DbSet<OrderDetailTbl> OrderDetailTbls { get; set; }
     }
 }
