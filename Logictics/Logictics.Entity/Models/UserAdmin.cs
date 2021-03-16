@@ -9,5 +9,8 @@
         public string Status { get; set; }
         public double? CreateDate { get; set; }
         public double? ModifyDate { get; set; }
+        public string Address { get; set; }
+        public string Phone { get; set; }
+        public string FullName { get; set; }
     }
 }

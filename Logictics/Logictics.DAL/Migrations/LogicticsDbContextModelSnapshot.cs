@@ -19,7 +19,7 @@ namespace Logictics.DAL.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Logictics.Entity.Models.UserAdmin", b =>
+            modelBuilder.Entity("Logictics.Entity.Models.CategoryProductTbl", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -30,10 +30,153 @@ namespace Logictics.DAL.Migrations
                     b.Property<double?>("ModifyDate")
                         .HasColumnType("float");
 
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CategoryProductTbl");
+                });
+
+            modelBuilder.Entity("Logictics.Entity.Models.OrderDetailTbl", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<double?>("CreateDate")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double?>("ModifyDate")
+                        .HasColumnType("float");
+
+                    b.Property<string>("OrderId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Price")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductCategoryId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Quality")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
+
+                    b.Property<string>("Weight")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("OrderDetailTbl");
+                });
+
+            modelBuilder.Entity("Logictics.Entity.Models.OrderTbl", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("CategoryId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double?>("CreateDate")
+                        .HasColumnType("float");
+
+                    b.Property<string>("CustomerConfirmId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double?>("ModifyDate")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Notes")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double?>("PickupDate")
+                        .HasColumnType("float");
+
+                    b.Property<string>("RecipientId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SenderId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Shipment")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
+
+                    b.Property<string>("StoreId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TotalWeight")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("OrderTbl");
+                });
+
+            modelBuilder.Entity("Logictics.Entity.Models.StoreTbl", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<double?>("CreateDate")
+                        .HasColumnType("float");
+
+                    b.Property<double?>("ModifyDate")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StoreTbl");
+                });
+
+            modelBuilder.Entity("Logictics.Entity.Models.UserAdmin", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double?>("CreateDate")
+                        .HasColumnType("float");
+
+                    b.Property<string>("FullName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double?>("ModifyDate")
+                        .HasColumnType("float");
+
                     b.Property<string>("PassWord")
                         .HasColumnType("varchar(150)")
                         .HasMaxLength(150)
                         .IsUnicode(false);
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Role")
                         .HasColumnType("varchar(50)")
