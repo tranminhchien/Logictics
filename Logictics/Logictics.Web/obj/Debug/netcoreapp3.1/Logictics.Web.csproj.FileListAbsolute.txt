@@ -332,6 +332,7 @@ E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Logictics.Web.Views
 E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Logictics.Web.Views.pdb
 E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 E:\Logictics\Logictics\Logictics.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
@@ -457,6 +458,7 @@ E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.TagHe
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.TagHelpers.output.cache
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.RazorCoreGenerate.cache
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Create.cshtml.g.cs
+E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Edit.cshtml.g.cs
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Index.cshtml.g.cs
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Views\Auth\Login.cshtml.g.cs
@@ -480,4 +482,3 @@ E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.cspro
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.dll
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.pdb
 E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Logictics.Web.genruntimeconfig.cache
-E:\Logictics\Logictics\Logictics.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Edit.cshtml.g.cs

@@ -7,6 +7,7 @@ using Common.Utils;
 using Logictics.DAL.EFContext;
 using Logictics.DAL.Repository;
 using Logictics.Service.Core;
+using Logictics.Service.ViewModel;
 using Logictics.Web.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -14,10 +15,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Logictics.Web
@@ -37,12 +41,18 @@ namespace Logictics.Web
         {
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
             //Add MVC Middleware  
-            services.AddControllersWithViews();
+            services.AddControllersWithViews(op =>
+            {
+                op.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
+            });
 
             // database connection configuration
             services.AddDbContext<LogicticsDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("LogicticsDatabase"))
             );
+
+            services.AddMvc();
+
 
             services.AddRazorPages();
 
@@ -67,8 +77,6 @@ namespace Logictics.Web
             app.UseStaticFiles();
             app.UseRouting();
 
-          
-            
             app.UseCookiePolicy();
             app.UseSession();
             app.Use(async (context, next) =>
@@ -147,6 +155,22 @@ namespace Logictics.Web
             services.AddScoped<ITimestampUtil, TimestampUtil>();
             services.AddScoped<IEncryptionUtil, EncryptionUtil>();
             services.AddScoped<ITimezoneListUtil, TimezoneListUtil>();
+        }
+
+        private static NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter()
+        {
+            var builder = new ServiceCollection()
+            .AddLogging()
+            .AddMvc()
+            .AddNewtonsoftJson()
+            .Services.BuildServiceProvider();
+
+            return builder
+                .GetRequiredService<IOptions<MvcOptions>>()
+                .Value
+                .InputFormatters
+                .OfType<NewtonsoftJsonPatchInputFormatter>()
+                .First();
         }
     }
 }
