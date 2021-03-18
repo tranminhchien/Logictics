@@ -247,21 +247,22 @@
         var TotalWeight = $("#shipment").val();
         var Note = $("#note").val();
 
-        //TODO validation data
-        var data = {
-            StoreId, SenderId, RecipientId, Shipment, TotalWeight, Note
-        }
-
         $.ajax({
             url: "/Admin/Order/Create",
             type: "POST",
-            contentType: "application/json; charset=utf-8",
-            data: JSON.stringify(data),
-            dataType: "json",
-            processData: false,
+            data: {
+                StoreId: StoreId,
+                SenderId: SenderId,
+                RecipientId: RecipientId,
+                Shipment: Shipment,
+                TotalWeight: TotalWeight,
+                Note: Note,
+                listOrdertail: listOrderDetail
+                
+            },
+            dataType: "JSON",
             success: function (response) {
-                alert(data);
-                alert(response);
+                window.location.href = "/Admin/Order";
             }
         });
     });

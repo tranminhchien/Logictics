@@ -68,16 +68,16 @@ namespace Logictics.Web.Areas.Admin.Controllers
 
         // POST: OrderController/Create
         [HttpPost]
-        public ActionResult Create([FromBody]OrderCreateModel data)
+        public JsonResult Create(OrderCreateModel data)
         {
             try
             {
-                var x = data;
-                return RedirectToAction(nameof(Index));
+                orderService.CreateOrder(data);
+                return Json(true);
             }
             catch
             {
-                return View();
+                return Json(false);
             }
         }
 

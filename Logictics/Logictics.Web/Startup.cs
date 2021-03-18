@@ -41,18 +41,14 @@ namespace Logictics.Web
         {
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
             //Add MVC Middleware  
-            services.AddControllersWithViews(op =>
-            {
-                op.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
-            });
+            services.AddControllersWithViews(/*op =>*/
+                //op.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
+            );
 
             // database connection configuration
             services.AddDbContext<LogicticsDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("LogicticsDatabase"))
             );
-
-            services.AddMvc();
-
 
             services.AddRazorPages();
 
@@ -157,20 +153,20 @@ namespace Logictics.Web
             services.AddScoped<ITimezoneListUtil, TimezoneListUtil>();
         }
 
-        private static NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter()
-        {
-            var builder = new ServiceCollection()
-            .AddLogging()
-            .AddMvc()
-            .AddNewtonsoftJson()
-            .Services.BuildServiceProvider();
+        //private static NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter()
+        //{
+        //    var builder = new ServiceCollection()
+        //    .AddLogging()
+        //    .AddMvc()
+        //    .AddNewtonsoftJson()
+        //    .Services.BuildServiceProvider();
 
-            return builder
-                .GetRequiredService<IOptions<MvcOptions>>()
-                .Value
-                .InputFormatters
-                .OfType<NewtonsoftJsonPatchInputFormatter>()
-                .First();
-        }
+        //    return builder
+        //        .GetRequiredService<IOptions<MvcOptions>>()
+        //        .Value
+        //        .InputFormatters
+        //        .OfType<NewtonsoftJsonPatchInputFormatter>()
+        //        .First();
+        //}
     }
 }

@@ -10,9 +10,9 @@ namespace Logictics.Entity.Models
         public string ProductCategoryId { get; set; }
         public string ProductCode { get; set; }
         public string Description { get; set; }
-        public string Quality { get; set; }
-        public string Weight { get; set; }
-        public string Price { get; set; }
+        public int? Quality { get; set; }
+        public int? Weight { get; set; }
+        public int? Price { get; set; }
         public string OrderId { get; set; }
         public string Status { get; set; }
         public double? CreateDate { get; set; }

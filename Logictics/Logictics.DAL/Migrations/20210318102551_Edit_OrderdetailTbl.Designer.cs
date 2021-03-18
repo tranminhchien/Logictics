@@ -4,14 +4,16 @@ using Logictics.DAL.EFContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Logictics.DAL.Migrations
 {
     [DbContext(typeof(LogicticsDbContext))]
-    partial class LogicticsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210318102551_Edit_OrderdetailTbl")]
+    partial class Edit_OrderdetailTbl
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

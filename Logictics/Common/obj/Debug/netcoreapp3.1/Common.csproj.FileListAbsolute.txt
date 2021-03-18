@@ -173,7 +173,6 @@ E:\Logictics\Logictics\Common\bin\Debug\netcoreapp3.1\System.Security.Cryptograp
 E:\Logictics\Logictics\Common\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Xml.dll
 E:\Logictics\Logictics\Common\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
 E:\Logictics\Logictics\Common\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
-E:\Logictics\Logictics\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
 E:\Logictics\Logictics\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
 E:\Logictics\Logictics\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
 E:\Logictics\Logictics\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
@@ -181,3 +180,4 @@ E:\Logictics\Logictics\Common\obj\Debug\netcoreapp3.1\Common.csproj.CopyComplete
 E:\Logictics\Logictics\Common\obj\Debug\netcoreapp3.1\Common.dll
 E:\Logictics\Logictics\Common\obj\Debug\netcoreapp3.1\Common.pdb
 E:\Logictics\Logictics\Common\obj\Debug\netcoreapp3.1\Common.genruntimeconfig.cache
+E:\Logictics\Logictics\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache

@@ -8,7 +8,6 @@ namespace Logictics.Entity.Models
     {
         public string Id { get; set; }
         public string StoreId { get; set; }
-        public string CategoryId { get; set; }
         public int TotalWeight { get; set; }
         public string Status { get; set; }
         public double? CreateDate { get; set; }

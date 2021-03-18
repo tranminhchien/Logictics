@@ -1,4 +1,5 @@
-﻿using Logictics.DAL.Repository;
+﻿using Common.Utils;
+using Logictics.DAL.Repository;
 using Logictics.Entity.Models;
 using Logictics.Service.ViewModel;
 using System;
@@ -11,6 +12,8 @@ namespace Logictics.Service.Core
     public interface IOrderService
     {
         List<OrderViewModel> GetListActive();
+
+        void CreateOrder(OrderCreateModel data);
     }
 
     public class OrderService : IOrderService
@@ -41,7 +44,7 @@ namespace Logictics.Service.Core
 
             foreach(var item in listOrder)
             {
-                var category = listCategoryProduct.FirstOrDefault(c => c.Id == item.CategoryId);
+                //var category = listCategoryProduct.FirstOrDefault(c => c.Id == item.CategoryId);
                 var store = listStore.FirstOrDefault(s => s.Id == item.StoreId);
                 var sender = listUser.FirstOrDefault(u => u.Id == item.SenderId);
                 var recipient = listUser.FirstOrDefault(u => u.Id == item.RecipientId);
@@ -49,12 +52,52 @@ namespace Logictics.Service.Core
                 var customerConfirm = listUser.FirstOrDefault(u => u.Id == item.CustomerConfirmId);
 
                 var orderVM = new OrderViewModel();
-                orderVM.MapOrderTblToOrderViewModel(item, category, store, sender, recipient, customerConfirm, orderDetail);
+                orderVM.MapOrderTblToOrderViewModel(item, store, sender, recipient, customerConfirm, orderDetail);
 
                 result.Add(orderVM);
             }
 
             return result;
+        }
+
+        public void CreateOrder(OrderCreateModel data)
+        {
+            OrderTbl order = new OrderTbl();
+            order.SenderId = data.SenderId;
+            order.RecipientId = data.RecipientId;
+            order.StoreId = data.StoreId;
+            order.Notes = data.Note;
+            order.TotalWeight = data.TotalWeight ?? 0;
+            order.Status = "ACTIVE";
+            order.Shipment = data.Shipment;
+            order.CreateDate = TimestampStaicClass.ConvertTotimestamp(DateTime.UtcNow);
+            order.ModifyDate = TimestampStaicClass.ConvertTotimestamp(DateTime.UtcNow);
+            order.Id = Guid.NewGuid().ToString();
+
+            orderRepo.Create(order);
+
+            var listOrderdetail = new List<OrderDetailTbl>();
+            if(data.listOrdertail != null)
+            {
+                foreach( var item in data.listOrdertail)
+                {
+                    var orderdetail = new OrderDetailTbl();
+                    orderdetail.CreateDate = TimestampStaicClass.ConvertTotimestamp(DateTime.UtcNow);
+                    orderdetail.ModifyDate = TimestampStaicClass.ConvertTotimestamp(DateTime.UtcNow);
+                    orderdetail.Status = "ACTIVE";
+                    orderdetail.Description = item.description;
+                    orderdetail.ProductCategoryId = item.categoryId;
+                    orderdetail.Id = Guid.NewGuid().ToString();
+                    orderdetail.OrderId = order.Id;
+                    orderdetail.Price = item.price;
+                    orderdetail.ProductCode = item.productCode;
+                    orderdetail.Quality = item.quality;
+                    orderdetail.Weight = item.quality;
+                    listOrderdetail.Add(orderdetail);
+                }
+            }
+
+            orderDetailRepo.CreateMulti(listOrderdetail);
         }
     }
 }

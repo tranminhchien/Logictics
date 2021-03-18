@@ -18,7 +18,7 @@ namespace Common.Utils
         }
     }
 
-    public class TimestampStaicClas
+    public class TimestampStaicClass
     {
         public static DateTime ConvertToDatetime(double? milliseconds)
         {
@@ -30,6 +30,20 @@ namespace Common.Utils
             }
 
             return milestones.AddMilliseconds((double)milliseconds).ToLocalTime();
+        }
+
+        /// <summary>
+        /// UTC + 0
+        /// </summary>
+        /// <param name="date"></param>
+        /// <returns></returns>
+        public static double ConvertTotimestamp(DateTime date)
+        {
+            DateTime milestones = new DateTime(1970, 1, 1, 0, 0, 0);
+
+            var Timespan = (date - milestones).TotalMilliseconds;
+
+            return Timespan;
         }
     }
    
