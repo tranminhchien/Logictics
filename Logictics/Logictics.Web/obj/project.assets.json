@@ -9857,19 +9857,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Manh\\.nuget\\packages\\": {}
+    "C:\\Users\\MinhChien\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Logictics\\Logictics\\Logictics.Web\\Logictics.Web.csproj",
+      "projectUniqueName": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Web\\Logictics.Web.csproj",
       "projectName": "Logictics.Web",
-      "projectPath": "E:\\Logictics\\Logictics\\Logictics.Web\\Logictics.Web.csproj",
-      "packagesPath": "C:\\Users\\Manh\\.nuget\\packages\\",
-      "outputPath": "E:\\Logictics\\Logictics\\Logictics.Web\\obj\\",
+      "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Web\\Logictics.Web.csproj",
+      "packagesPath": "C:\\Users\\MinhChien\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Manh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MinhChien\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9881,16 +9881,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Logictics\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj": {
-              "projectPath": "E:\\Logictics\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj"
+            "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj": {
+              "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj"
             },
-            "E:\\Logictics\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
-              "projectPath": "E:\\Logictics\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj"
+            "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
+              "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj"
             },
-            "E:\\Logictics\\Logictics\\Logictics.Service\\Logictics.Service.csproj": {
-              "projectPath": "E:\\Logictics\\Logictics\\Logictics.Service\\Logictics.Service.csproj"
+            "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\Logictics.Service.csproj": {
+              "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\Logictics.Service.csproj"
             }
           }
         }
@@ -9903,7 +9902,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
@@ -9960,7 +9958,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

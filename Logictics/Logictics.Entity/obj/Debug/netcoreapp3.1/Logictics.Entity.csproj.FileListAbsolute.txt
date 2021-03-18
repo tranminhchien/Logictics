@@ -15,12 +15,4 @@ C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\obj\Debug\netcore
 C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.csproj.CoreCompileInputs.cache
 C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.dll
 C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.pdb
-E:\Logictics\Logictics\Logictics.Entity\bin\Debug\netcoreapp3.1\Logictics.Entity.deps.json
-E:\Logictics\Logictics\Logictics.Entity\bin\Debug\netcoreapp3.1\Logictics.Entity.dll
-E:\Logictics\Logictics\Logictics.Entity\bin\Debug\netcoreapp3.1\Logictics.Entity.pdb
-E:\Logictics\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.csprojAssemblyReference.cache
-E:\Logictics\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.AssemblyInfoInputs.cache
-E:\Logictics\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.AssemblyInfo.cs
-E:\Logictics\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.csproj.CoreCompileInputs.cache
-E:\Logictics\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.dll
-E:\Logictics\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.pdb
+C:\Users\MinhChien\Desktop\Logictic\Logictics\Logictics.Entity\obj\Debug\netcoreapp3.1\Logictics.Entity.csprojAssemblyReference.cache

@@ -6353,19 +6353,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Manh\\.nuget\\packages\\": {}
+    "C:\\Users\\MinhChien\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Logictics\\Logictics\\Common\\Common.csproj",
+      "projectUniqueName": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "E:\\Logictics\\Logictics\\Common\\Common.csproj",
-      "packagesPath": "C:\\Users\\Manh\\.nuget\\packages\\",
-      "outputPath": "E:\\Logictics\\Logictics\\Common\\obj\\",
+      "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj",
+      "packagesPath": "C:\\Users\\MinhChien\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Manh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MinhChien\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6377,7 +6377,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -6389,7 +6388,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.ViewFeatures": {
             "target": "Package",
@@ -6411,7 +6409,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
