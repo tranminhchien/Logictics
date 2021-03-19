@@ -1,5 +1,4 @@
-﻿using Common.Utils;
-using Logictics.DAL.Repository;
+﻿using Logictics.DAL.Repository;
 using Logictics.Service.Core;
 using Logictics.Service.ViewModel;
 using Logictics.Web.Auth;
@@ -7,10 +6,7 @@ using Logictics.Web.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace Logictics.Web.Areas.Admin.Controllers
 {
@@ -82,9 +78,24 @@ namespace Logictics.Web.Areas.Admin.Controllers
         }
 
         // GET: OrderController/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(string id)
         {
-            return View();
+            var listCategory = categoryProductRepo.GetAll().ToList();
+            var listStore = storeRepo.GetAll().ToList();
+            var listUser = userRepo.GetAll().ToList();
+            var order = orderService.GetOrder(id);
+            var listOrderDetail = orderDetailService.GetListOrderDetail(id);
+
+            ViewBag.ListCategory = new SelectList(listCategory, "Id", "Name");
+            ViewBag.ListStore = new SelectList(listStore, "Id", "Name");
+            ViewBag.ListSender = new SelectList(listUser, "Id", "UserName");
+            ViewBag.ListRecipient = new SelectList(listUser, "Id", "UserName");
+            OrderEditResponseViewModel data = new OrderEditResponseViewModel()
+            {
+                orderTbl = order,
+                listOrderDetail = listOrderDetail,
+            };
+            return View(data);
         }
 
         // POST: OrderController/Edit/5

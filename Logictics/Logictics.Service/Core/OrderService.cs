@@ -14,6 +14,8 @@ namespace Logictics.Service.Core
         List<OrderViewModel> GetListActive();
 
         void CreateOrder(OrderCreateModel data);
+
+        OrderTbl GetOrder(string id);
     }
 
     public class OrderService : IOrderService
@@ -58,6 +60,11 @@ namespace Logictics.Service.Core
             }
 
             return result;
+        }
+
+        public OrderTbl GetOrder(string id)
+        {
+            return orderRepo.Get(id);
         }
 
         public void CreateOrder(OrderCreateModel data)

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\Logictics.Service.csproj": {}
+    "E:\\Logictics\\Logictics\\Logictics.Service\\Logictics.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj": {
+    "E:\\Logictics\\Logictics\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj",
+        "projectUniqueName": "E:\\Logictics\\Logictics\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\MinhChien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\obj\\",
+        "projectPath": "E:\\Logictics\\Logictics\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\Manh\\.nuget\\packages\\",
+        "outputPath": "E:\\Logictics\\Logictics\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MinhChien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Manh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
@@ -58,21 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj": {
+    "E:\\Logictics\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj",
+        "projectUniqueName": "E:\\Logictics\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj",
         "projectName": "Logictics.DAL",
-        "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj",
-        "packagesPath": "C:\\Users\\MinhChien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\obj\\",
+        "projectPath": "E:\\Logictics\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj",
+        "packagesPath": "C:\\Users\\Manh\\.nuget\\packages\\",
+        "outputPath": "E:\\Logictics\\Logictics\\Logictics.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MinhChien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Manh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,12 +86,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj"
+              "E:\\Logictics\\Logictics\\Common\\Common.csproj": {
+                "projectPath": "E:\\Logictics\\Logictics\\Common\\Common.csproj"
               },
-              "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
-                "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj"
+              "E:\\Logictics\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
+                "projectPath": "E:\\Logictics\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj"
               }
             }
           }
@@ -102,6 +105,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -137,21 +141,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
+    "E:\\Logictics\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj",
+        "projectUniqueName": "E:\\Logictics\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj",
         "projectName": "Logictics.Entity",
-        "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj",
-        "packagesPath": "C:\\Users\\MinhChien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Entity\\obj\\",
+        "projectPath": "E:\\Logictics\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj",
+        "packagesPath": "C:\\Users\\Manh\\.nuget\\packages\\",
+        "outputPath": "E:\\Logictics\\Logictics\\Logictics.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MinhChien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Manh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -163,6 +167,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -174,6 +179,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -189,21 +195,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\Logictics.Service.csproj": {
+    "E:\\Logictics\\Logictics\\Logictics.Service\\Logictics.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\Logictics.Service.csproj",
+        "projectUniqueName": "E:\\Logictics\\Logictics\\Logictics.Service\\Logictics.Service.csproj",
         "projectName": "Logictics.Service",
-        "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\Logictics.Service.csproj",
-        "packagesPath": "C:\\Users\\MinhChien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.Service\\obj\\",
+        "projectPath": "E:\\Logictics\\Logictics\\Logictics.Service\\Logictics.Service.csproj",
+        "packagesPath": "C:\\Users\\Manh\\.nuget\\packages\\",
+        "outputPath": "E:\\Logictics\\Logictics\\Logictics.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MinhChien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Manh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -215,12 +221,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Common\\Common.csproj"
+              "E:\\Logictics\\Logictics\\Common\\Common.csproj": {
+                "projectPath": "E:\\Logictics\\Logictics\\Common\\Common.csproj"
               },
-              "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj": {
-                "projectPath": "C:\\Users\\MinhChien\\Desktop\\Logictic\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj"
+              "E:\\Logictics\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj": {
+                "projectPath": "E:\\Logictics\\Logictics\\Logictics.DAL\\Logictics.DAL.csproj"
+              },
+              "E:\\Logictics\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj": {
+                "projectPath": "E:\\Logictics\\Logictics\\Logictics.Entity\\Logictics.Entity.csproj"
               }
             }
           }
@@ -233,6 +243,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -248,7 +259,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
