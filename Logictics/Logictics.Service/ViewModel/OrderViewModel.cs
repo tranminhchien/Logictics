@@ -13,7 +13,6 @@ namespace Logictics.Service.ViewModel
         public string Id { get; set; } = "";
         public double? TotalWeight { get; set; } = 0;
         public string Store { get; set; } = "";
-        public string Category { get; set; } = "";
         public string CustomerConfirm { get; set; } = "";
         public int NumberOfDOCS { get; set; } = 0;
         public string Notes { get; set; } = "";
@@ -32,7 +31,7 @@ namespace Logictics.Service.ViewModel
         public DateTime PickupDate { get; set; }
     
 
-        public bool MapOrderTblToOrderViewModel(OrderTbl order, CategoryProductTbl categoryProduct, StoreTbl store, UserAdmin sender, UserAdmin recipient, UserAdmin customer, IEnumerable<OrderDetailTbl> orderDetail)
+        public bool MapOrderTblToOrderViewModel(OrderTbl order, StoreTbl store, UserAdmin sender, UserAdmin recipient, UserAdmin customer, IEnumerable<OrderDetailTbl> orderDetail)
         {
             try
             {
@@ -42,7 +41,6 @@ namespace Logictics.Service.ViewModel
                 }
                 this.Id = order.Id;
                 this.TotalWeight = order.TotalWeight;
-                this.Category = categoryProduct == null ? StringProvider.NOTFOUND : categoryProduct.Name;
                 this.Store = store == null ? StringProvider.NOTFOUND :  store.Name;
                 this.CustomerConfirm = customer == null ? "" : customer.FullName;
                 this.NumberOfDOCS = orderDetail.Count();
@@ -57,9 +55,9 @@ namespace Logictics.Service.ViewModel
                 this.RecipientAddress =  recipient == null ? StringProvider.NOTFOUND : recipient.Address;
 
                 this.Status = order.Status;
-                this.CreateDate = TimestampStaicClas.ConvertToDatetime(order.CreateDate);
-                this.ModifyDate = TimestampStaicClas.ConvertToDatetime(order.ModifyDate);
-                this.PickupDate = TimestampStaicClas.ConvertToDatetime(order.PickupDate);
+                this.CreateDate = TimestampStaicClass.ConvertToDatetime(order.CreateDate);
+                this.ModifyDate = TimestampStaicClass.ConvertToDatetime(order.ModifyDate);
+                this.PickupDate = TimestampStaicClass.ConvertToDatetime(order.PickupDate);
                 return true;
             } catch (Exception e)
             {
