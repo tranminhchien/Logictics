@@ -56,8 +56,8 @@ namespace Logictics.DAL.Migrations
                     b.Property<string>("OrderId")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<string>("Price")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+                    b.Property<int?>("Price")
+                        .HasColumnType("int");
 
                     b.Property<string>("ProductCategoryId")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
@@ -65,16 +65,16 @@ namespace Logictics.DAL.Migrations
                     b.Property<string>("ProductCode")
                         .HasColumnType("longtext CHARACTER SET utf8mb4");
 
-                    b.Property<string>("Quality")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+                    b.Property<int?>("Quality")
+                        .HasColumnType("int");
 
                     b.Property<string>("Status")
                         .HasColumnType("varchar(50) CHARACTER SET utf8mb4")
                         .HasMaxLength(50)
                         .IsUnicode(false);
 
-                    b.Property<string>("Weight")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+                    b.Property<int?>("Weight")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -85,9 +85,6 @@ namespace Logictics.DAL.Migrations
                 {
                     b.Property<string>("Id")
                         .HasColumnType("varchar(255) CHARACTER SET utf8mb4");
-
-                    b.Property<string>("CategoryId")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.Property<double?>("CreateDate")
                         .HasColumnType("double");
