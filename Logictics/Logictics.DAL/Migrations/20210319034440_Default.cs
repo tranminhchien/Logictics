@@ -2,7 +2,7 @@
 
 namespace Logictics.DAL.Migrations
 {
-    public partial class InitDB : Migration
+    public partial class Default : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

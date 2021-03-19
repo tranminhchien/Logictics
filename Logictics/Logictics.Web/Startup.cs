@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Common.Utils;
+using LinqToDB;
 using Logictics.DAL.EFContext;
 using Logictics.DAL.Repository;
 using Logictics.Service.Core;
@@ -41,8 +42,9 @@ namespace Logictics.Web
 
             // database connection configuration
             services.AddDbContext<LogicticsDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("LogicticsDatabase"))
+                options.UseMySql(Configuration.GetConnectionString("LogicticsDatabase"))
             );
+
 
             services.AddRazorPages();
 
@@ -53,8 +55,11 @@ namespace Logictics.Web
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, LogicticsDbContext dataContext)
         {
+            // migrate any database changes on startup (includes initial db creation)
+            dataContext.Database.Migrate();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -63,6 +68,7 @@ namespace Logictics.Web
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
